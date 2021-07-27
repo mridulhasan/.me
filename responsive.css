@@ -1,0 +1,414 @@
+@media (max-width:2500px) {
+    .check,.three-dot{
+        visibility:hidden;
+        opacity: 0;
+        display:none;
+    }
+    .cross{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    .edu-all-hdr h3 br {
+        display: none;
+    }
+    .mobile-edu-sec{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .gmail_mobile{
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .phn-gmail{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .phn-gmail-1{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+}
+@media(max-width:1200px){
+    .edu-icon {
+        position: relative;
+        left: -23px;
+    }
+    .edu-all-hdr-left {
+        left: -170px !important;
+    }
+    .edu-all-hdr-left-1 {
+        left: -270px !important;
+    }
+    .education-details ul li {
+        width: 65%;
+    }
+}
+@media(max-width:992px){
+    .header-nav ul li {
+        margin-right: 22px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+    }
+    .banner-img img {
+        width: 360px;
+    }
+    .about-img img {
+        width: 350px;
+    }
+    .about-text {
+        margin: 0;
+        margin-top:100px !important;
+    }
+    .edu-icon {
+        position: relative;
+        left: -50px;
+    }
+    .contact-item {
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:768px){
+    .header-nav{
+        position: relative;
+    }
+    .cross {
+        visibility:hidden;
+        opacity:0;
+        position: absolute;
+        top:-2px;
+        right:3px;
+        display: block;
+        cursor: pointer;
+    }
+    .cross i {
+        font-size:46px !important;
+    }
+    .check:checked ~ .cross{
+        visibility:visible;
+        opacity:100%;
+        pointer-events: none;
+    }
+    .check:checked ~ .three-dot{
+        visibility:hidden;
+        opacity:0;
+    }
+    .check,.three-dot{
+        visibility: visible;
+        opacity: 100%;
+        display: block;
+    }
+    .three-dot i {
+        position: absolute;
+        top: 0px;
+        right: 1px;
+        pointer-events: none;
+        font-size: 41px;
+    }
+    .check {
+        position: absolute;
+        top: 3px;
+        right: 1px;
+        display: block;
+        width: 35px;
+        height: 35px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .header-nav ul {
+        display: block;
+        height:0;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 90px;
+        right: -147px;
+    }
+    .header-nav .check:checked ~ ul {
+        opacity: 1;
+        visibility: visible;
+        height: 100vh;
+        background: #fff;
+        width: 150%;
+        position: absolute;
+        right: -114px;
+        top: 60px;
+        padding-top:50px;
+    }
+    .header-nav ul li{
+        display: block;
+        text-align: center;
+        transition: .3s;
+    }
+    .header-nav ul li a{
+        color: rgb(0, 0, 0);
+        padding:25px 0 !important;
+        display: block;
+        font-size:25px;
+    }
+    .banner-text h1 {
+        font-size: 38px;
+    }
+    .banner-text h3 {
+        font-size: 18px;
+    }
+    .banner-social {
+        margin: 17px 0 0 0;
+    }
+    .banner-img img {
+        width: 340px;
+    }
+    .banner-text {
+        top: 270px;
+    }
+    .about-img img {
+        width: 260px;
+        margin-top: 30px;
+    }
+    .about-section{
+        padding: 20px 0;
+    }
+    .about-text {
+        margin-top: 30px !important;
+    }
+    .edu-all-hdr {
+        left: 100px;
+    }
+    .edu-all-hdr-left {
+        left: -190px !important;
+    }
+    .edu-icon {
+        left: -70px;
+    }
+    .edu-all-hdr h3 {
+        font-size: 20px;
+    }
+    .edu-all-hdr-left-1 {
+        left: -230px !important;
+    }
+    .edu-all-hdr p {
+        font-size: 15px;
+    }
+    .whatsapp-icon {
+        margin-top:10px;
+        color: #fff;
+        }
+    .whatsapp_float {
+        width: 50px;
+        height: 50px;
+        bottom: 38px;
+        right: 35px;
+        font-size: 30px;
+    }
+    .gmail_mobile{
+        display:flex !important;
+        opacity: 1;
+        visibility:visible;
+        overflow:visible;
+    }
+    .google{
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .phn-gmail{
+        display:block;
+        opacity: 1;
+        visibility: visible;
+        overflow:visible;
+    }
+    .pc-gmail{
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .phn-gmail-1{
+        display:block;
+        opacity: 1;
+        visibility: visible;
+        overflow:visible;
+    }
+    .pc-gmail-1{
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+}
+@media(max-width:576px){
+    .header-logo a {
+        position: relative;
+        left: 40px;
+    }
+    .check {
+        top: -43px;
+        right: 50px;
+    }
+    .three-dot i {
+        top: -46px;
+        right: 49px;
+    }
+    .cross {
+        top: -48px;
+        right: 50px;
+    }
+    .header-nav .check:checked ~ ul {
+        top: 16px;
+        padding-top: 0;
+    }
+    .banner-img img {
+        width: 300px;
+    }
+    .banner-text {
+        top: 250px;
+        left: 50px;
+    }
+    .banner-text h1 {
+        font-size: 32px;
+    }
+    .header-nav .check:checked ~ ul {
+        width: 100%;
+        right: 0px;
+    }
+    .about-more p {
+        margin: 20px 60px;
+    }
+    .about-text {
+        margin-top: 30px !important;
+        text-align: center;
+    }
+    .edu-all-hdr {
+        left: 85px;
+    }
+    .edu-all-hdr h3 {
+        font-size: 16px;
+    }
+    .edu-all-hdr p {
+        font-size: 13px;
+    }
+    .edu-all-hdr-left {
+        left: -148px !important;
+    }
+    .edu-all-hdr-left-1 {
+        left: -178px !important;
+    }
+    .footer-text p {
+        font-size: 15px;
+    }
+}
+@media(max-width:500px){
+    .mobile-edu-sec{
+        display:block !important;
+        opacity: 1 !important;
+        visibility:visible !important;
+    }
+    .education-section{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .education-details ul li {
+        width: 100%;
+        left: 103px;
+    }
+    .education-details ul::before {
+        left: 163px;
+    }
+    .edu-all-hdr h3 {
+        font-size: 17px;
+    }
+    .edu-all-hdr h3 br {
+        display:block;
+    }
+    .edu-hdr p {
+        font-size: 35px;
+    }
+    .edu-hdr {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .edu-hdr h5 {
+        font-size: 17px;
+    }
+}
+@media(max-width:400px){
+    .header-nav .check:checked ~ ul {
+        width: 75%;
+        right: -15px;
+        top: 14px;
+    }
+    .banner-text {
+        top: 365px;
+        left: 36px;
+        background: #fff;
+        padding: 20px;
+    }
+    .about-more p {
+        margin: 20px 30px;
+    }
+    .edu-icon {
+        left: -86px;
+    }
+    .edu-all-hdr {
+        left: 72px;
+    }
+    .edu-all-hdr h3 {
+        font-size: 15px;
+    }
+    .edu-all-hdr-left {
+        left: -128px !important;
+    }
+    .edu-all-hdr p span{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    .edu-icon i {
+        font-size: 32px;
+    }
+    .edu-icon::before {
+        left: 44px;
+    }
+    .edu-icon::after {
+        top: 24%;
+        left: 109px;
+    }
+    .education-details ul::before {
+        left: 135px;
+    }
+    .edu-all-hdr {
+        left: 63px;
+    }
+    .edu-hdr p {
+        font-size: 30px;
+    }
+    .edu-hdr h5 {
+        font-size: 15px;
+    }
+    .footer-text p {
+        font-size: 10px;
+    }
+    .check {
+        top: -43px;
+        right:30px;
+    }
+    .three-dot i {
+        top: -46px;
+        right:30px;
+    }
+    .cross {
+        top: -48px;
+        right:30px;
+    }
+}
